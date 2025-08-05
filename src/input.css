@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+body {
+   
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-bg{
+    background: #020202;
+    background: linear-gradient(90deg, rgba(88, 0, 150, 1) 0%, rgba(44, 2, 77, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+
+
+
+@layer utilities {
+    .animate-typing {
+        animation: blink 1s steps(2, start) infinite;
+    }
+
+    @keyframes blink {
+
+        0%,
+        100% {
+            border-color: transparent;
+        }
+
+        50% {
+            border-color: #c084fc;
+        }
+
+        /* color morado */
+    }
+}

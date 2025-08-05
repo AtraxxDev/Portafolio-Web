@@ -1,0 +1,590 @@
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Elliot Reyes - Portfolio</title>
+  </head>
+
+  <body class="gradient-bg text-white">
+
+    <!-- Navbar -->
+    <nav class="w-full fixed top-0 z-50 bg-transparent backdrop-blur-md text-white">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <!-- Logo -->
+        <div class="text-2xl font-bold">
+          <a href="#">Portafolio</a>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex space-x-8 text-lg items-center">
+          <a href="#home" class="hover:text-purple-500 transition underline underline-offset-8">Inicio</a>
+          <a href="#about" class="hover:text-purple-500 transition">Acerca de</a>
+          <a href="#projects" class="hover:text-purple-500 transition">Proyectos</a>
+          <a href="#contact"
+            class="bg-purple-500 text-black px-4 py-2 rounded-2xl hover:bg-purple-600 transition">Contacto</a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <div class="md:hidden">
+          <button id="menu-toggle" class="text-3xl focus:outline-none">
+            <span id="menu-icon">&#9776;</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu"
+        class="origin-top hidden transform scale-y-0 opacity-0 transition-all duration-300 ease-out md:hidden px-6 py-3 space-y-2 bg-transparent bg-opacity-90">
+        <a href="#home" class="block text-white hover:text-purple-400">Inicio</a>
+        <a href="#about" class="block text-white hover:text-purple-400">Acerca de</a>
+        <a href="#projects" class="block text-white hover:text-purple-400">Proyectos</a>
+        <a href="#contact"
+          class="block bg-purple-500 text-black px-4 py-2 rounded hover:bg-purple-600 transition">Contacto</a>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="min-h-screen px-6 text-white pt-35 flex flex-col justify-center gap-12 gradient-bg">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+        <div class="space-y-6">
+          <h3
+            class="text-xl font-semibold text-purple-300 uppercase tracking-wider bg-purple-600/30 px-4 py-2 rounded-3xl inline-block w-fit">
+            Elliot Reyes
+          </h3>
+
+          <div>
+            <h1 class="text-4xl font-bold leading-tight text-white sm:text-[4.2rem]">¡HOLA! SOY ELLIOT</h1>
+            <h2 id="typing-text"
+            class="text-2xl text-purple-300 mt-2 sm:text-4xl inline-block border-r-4 border-purple-400 animate-typing overflow-hidden whitespace-nowrap leading-relaxed">
+
+            </h2>
+
+          </div>
+
+          <p class="text-xl">
+  Disfruto transformar ideas en experiencias memorables. Ya sea construyendo mundos interactivos en videojuegos o desarrollando interfaces web funcionales, mi pasión es programar, crear y mejorar la forma en que las personas interactúan con la tecnología.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 items-center gap-4">
+            <a href="#contact"
+              class="bg-purple-500 text-white px-6 py-3 rounded-2xl hover:bg-purple-600 transition text-center text-xl">
+              Contactame ->
+            </a>
+            <div class="flex justify-start sm:justify-end space-x-4 text-3xl text-purple-600">
+              <a href="https://github.com/atraxxdev" target="_blank" class="hover:text-purple-800 transition" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/elliotreyes/" target="_blank" class="hover:text-purple-800 transition" aria-label="LinkedIn"><i
+                  class="fab fa-linkedin"></i></a>
+              <a href="https://atraxxdev.itch.io/" target="_blank" class="hover:text-purple-800 transition" aria-label="Itchio"><i
+                  class="fa-brands fa-itch-io"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN -->
+        <div class="flex justify-center">
+          <img
+            src="https://media.discordapp.net/attachments/1011693764642877553/1402117090051227648/web2-removebg-preview2.png?ex=6892becc&is=68916d4c&hm=24d263b963459987ad4f2e12a35c9a0dbfd383f7036430401ae29923f5656943&=&format=webp&quality=lossless"
+            alt="Foto de Elliot"
+            class="w-[25rem] h-[25rem] md:w-[40rem] md:h-[40rem] object-cover mask-b-from-[95%] mask-b-to-[100%]" />
+        </div>
+      </div>
+    </section>
+
+  
+
+    <!-- About me -->
+    <section id="about" class="max-w-7xl mx-auto px-6 py-10 text-white">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
+
+
+        <!-- Col Izquierda-->
+        <div class="rounded-lg overflow-hidden  h-full max-h-130 w-full flex">
+          <img
+            src="https://cdn.discordapp.com/attachments/1011693764642877553/1402172250966196244/Imagen_de_WhatsApp_2025-08-05_a_las_00.11.44_e30b4799.jpg?ex=6892f22b&is=6891a0ab&hm=557b8641d976890243a1cbecb9907d4336e931c273332154e41c4585c726d763&"
+            alt="Foto de Elliot Reyes" class="object-contain " />
+        </div>
+
+
+        <!-- Col Derecha -->
+        <div class="flex flex-col justify-start gap-8 h-full">
+
+          <div class="space-y-6">
+            <h3
+              class="text-md font-semibold text-purple-300 uppercase tracking-wider bg-purple-600/30 px-4 py-2 rounded-3xl inline-block w-fit">
+              Acerca de
+            </h3>
+            <h2 class="text-3xl font-semibold text-purple-400">¿Quien Soy?</h2>
+
+            <h3 class="text-3xl font-semibold">
+              Mi nombre es Elliot Reyes o varios me conocen como Atraxx soy desarrollador de software especializado en videojuegos y desarrollo web.
+            </h3>
+
+            <p class="text-gray-300 italic">
+              Disfruto diseñar y construir experiencias que conectan con las personas. No le digo no a ningún proyecto que me permita crecer, aprender y aportar soluciones creativas en el mundo del desarrollo.  
+              Mi especialidad es el desarrollo de videojuegos usando Unity, abarcando desde juegos 2D y 3D hasta experiencias en VR y mobile.
+            </p>
+
+            <div class="border-t border-purple-600 my-3"></div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-lg">
+
+              <!-- Col Izquierda -->
+              <div class="space-y-2">
+                <div><span class="font-semibold text-purple-400">Nombre:</span> Elliot Reyes</div>
+                <div><span class="font-semibold text-purple-400">Edad:</span> 22</div>
+              </div>
+
+              <!-- Col Derecha -->
+              <div class="space-y-2">
+                <div><span class="font-semibold text-purple-400">Soy de:</span> Mexico</div>
+                <div><span class="font-semibold text-purple-400">Email:</span> gametraxworks@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <a href="./CV-ELLIOT-REYES.pdf" download
+                class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded-2xl transition">
+                Descargar CV
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="w-full py-16">
+      <div id="skills" class=" max-w-7xl mx-auto px-6 py-5 text-white">
+        <h2 class="text-3xl font-bold mb-6  inline-block">— Habilidades</h2>
+
+        <div class="flex gap-4 mb-6">
+          <button id="tech-btn" class="cursor-pointer px-6 py-2 rounded-lg font-semibold transition">
+            Tecnicas
+          </button>
+          <button id="tools-btn" class="cursor-pointer px-6 py-2 rounded-lg font-semibold transition">
+            Herramientas
+          </button>
+        </div>
+
+
+        <!-- Contenedor de cards -->
+        <div id="skills-container" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Proyects -->
+  <section id="projects" class="py-16 text-white">
+    <div class="container mx-auto px-4">
+      <h3
+        class="text-xl font-semibold text-purple-300 uppercase tracking-wider bg-purple-600/30 px-4 py-2 my-8 rounded-3xl inline-block w-fit">
+        Mis Proyectos Recientes
+      </h3>
+
+      <!-- Filtros -->
+      <div class="flex justify-center flex-wrap gap-3 mb-10">
+        <button class="filter-btn cursor-pointer bg-purple-700 text-white px-4 py-2 rounded-full hover:bg-purple-800 transition active"
+          data-filter="all">Todos</button>
+        <button class="filter-btn cursor-pointer text-white px-4 py-2 rounded-full hover:bg-purple-800 transition"
+          data-filter="web">Paginas Web</button>
+        <button class="filter-btn cursor-pointer text-white px-4 py-2 rounded-full hover:bg-purple-800 transition"
+          data-filter="game">Desarrollo de Juegos</button>
+        <!-- <button class="filter-btn cursor-pointer text-white px-4 py-2 rounded-full hover:bg-purple-800 transition"
+          data-filter="app">Aplicaciones .Net</button> -->
+      </div>
+
+      <!-- Cards -->
+      <div id="project-cards" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <!-- Card 1 -->
+        <div class="project-card" data-category="web">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+            <img src="https://cdn.discordapp.com/attachments/1011693764642877553/1402408229668917349/Project_1.png?ex=6893cdf1&is=68927c71&hm=d3da4e0a0b94b095c18bdd30cdbf0d134e7353d27515bdd75d1afeb1a305d5ee&"
+              alt="Project 1" class="w-full h-48 object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-1">Portafolio Web</h3>
+              <p class="text-sm text-gray-400 mb-2">Frontend</p>
+              <p class="mb-3 text-gray-300">Un portafolio personal que muestra mi trabajo, experiencia  y habilidades que tengo, construido con principios de diseño responsivo.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">HTML</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Tailwind</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">JavaScript</span>
+              </div>
+              <a href="#" target="_blank" class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar Proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="project-card" data-category="web">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+            <img src="https://cdn.discordapp.com/attachments/1011693764642877553/1402409373426516130/image.png?ex=6893cf02&is=68927d82&hm=2ae1bfc01247d02e09f265f320cbca09d2c6d5ae01d3503f1b3fa55d5aab0911&"
+              alt="Project 2" class="w-full h-48 object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-1">E-commerce</h3>
+              <p class="text-sm text-gray-400 mb-2">Frontend & Backend</p>
+              <p class="mb-3 text-gray-300">E-commerce responsivo creado como practica escolar donde el enfoque mas que nada fue en la pasarela de pagos y el sistema de carrito</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">HTML</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">CSS</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Bootstrap 5</span>
+              </div>
+              <a href="https://atraxxdev.github.io/E-Commerce/" target="_blank" class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar Proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="project-card" data-category="game">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+            <img src="https://cdn.discordapp.com/attachments/1011693764642877553/1402410901889613836/Captura_de_pantalla_2025-07-10_113142.png?ex=6893d06e&is=68927eee&hm=a4ae690016878d5fcb88c2b7fd16c268c3172e16983636915febff91c5809561&"
+              alt="Project 3" class="w-full h-48 object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-1">Recipe Rumble</h3>
+              <p class="text-sm text-gray-400 mb-2">Unity | Game Dev</p>
+              <p class="mb-3 text-gray-300">  Videojuego de tipo party game para PC, con soporte multijugador local de hasta 4 jugadores. Compatible con teclado y mandos, diseñado para sesiones rápidas y divertidas en grupo.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Unity</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">C#</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">New Input System</span>
+              </div>
+              <a href="https://atraxxdev.itch.io/recipe-rumble" target="_blank" class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar Proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="project-card" data-category="web">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+            <img src="https://cdn.discordapp.com/attachments/1011693764642877553/1402412522144923690/image.png?ex=6893d1f0&is=68928070&hm=6d1ea94eb89bd71768da7d3fa33d8de30dddde73b939bc9c6e59303a64500fdc&"
+              alt="Project 4" class="w-full h-48 object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold mb-1">Pagina Institucional</h3>
+              <p class="text-sm text-gray-400 mb-2">Frontend & Backend</p>
+              <p class="mb-3 text-gray-300">  Sitio web desarrollado para una institución educativa, donde se presentan sus servicios, carreras y métodos de contacto. Incluye un formulario funcional conectado a Google Sheets para recibir consultas en tiempo real.
+  </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">11ty</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">HTML</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">CSS</span>
+                <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Bootstrap 5</span>
+              </div>
+              <a href="https://tecsum.edu.mx/" target="_blank" class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar Proyecto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Contact Us -->
+    <section id="contact" class="py-20">
+      <div class="container mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-12">
+
+        <!-- Columna Izquierda -->
+        <div class="flex flex-col justify-start space-y-6">
+          <h2 class="text-4xl font-bold text-white">Contactame</h2>
+          <p class="text-gray-400">Estoy siempre abierto a nuevas oportunidades, colaboraciones o simplemente charlas sobre desarrollo. Si tienes un proyecto en mente o te interesa trabajar conmigo, no dudes en escribirme.</p>
+
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-purple-700 text-white">
+              <i class="fa-brands fa-github text-2xl"></i>
+            </div>
+            <span class="text-purple-300 font-medium">Contactame por GitHub</span>
+          </div>
+
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-purple-700 text-white">
+              <i class="fa-brands fa-itch-io text-2xl"></i>
+            </div>
+            <span class="text-purple-300 font-medium">Visita mis proyectos</span>
+          </div>
+
+          <!-- Redes Sociales -->
+          <div class="mt-6">
+            <p class="text-sm text-gray-400 mb-2">Sigueme</p>
+            <div class="flex gap-4">
+              <a href="https://twitter.com/atraxxdev"><i class="fab fa-twitter text-xl text-purple-400 hover:text-purple-300"></i></a>
+              <a href="https://www.linkedin.com/in/elliotreyes/"><i class="fab fa-linkedin text-xl text-purple-400 hover:text-purple-300"></i></a>
+              <a href="https://www.instagram.com/AtraxxDev/"><i class="fab fa-instagram text-xl text-purple-400 hover:text-purple-300"></i></a>
+              <a href="https://www.youtube.com/channel/UCG05WbmIX_S_6HC8oibnuzA"><i class="fab fa-youtube text-xl text-purple-400 hover:text-purple-300"></i></a>
+<a href="https://wa.me/525514699897" target="_blank">
+  <i class="fab fa-whatsapp text-xl text-purple-400 hover:text-purple-300"></i>
+</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna Derecha-->
+        <div class="flex items-center justify-center">
+          <div class="bg-purple-950 p-6 rounded-2xl shadow-md max-w-lg w-full">
+            <form class="space-y-10">
+              <!-- Nombre y Email -->
+              <div class="grid md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-sm text-white mb-1">Nombre</label>
+                  <input type="text" placeholder="Nombre"
+                    class="w-full px-4 py-2 rounded bg-purple-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600" />
+                </div>
+                <div>
+                  <label class="block text-sm text-white mb-1">Email</label>
+                  <input type="email" placeholder="Email"
+                    class="w-full px-4 py-2 rounded bg-purple-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600" />
+                </div>
+              </div>
+
+              <!-- Teléfono y Asunto -->
+              <div class="grid md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-sm text-white mb-1">Telefono</label>
+                  <input type="text" placeholder="Numero de Telefono"
+                    class="w-full px-4 py-2 rounded bg-purple-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600" />
+                </div>
+                <div>
+                  <label class="block text-sm text-white mb-1">Asunto</label>
+                  <input type="text" placeholder="Asunto"
+                    class="w-full px-4 py-2 rounded bg-purple-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600" />
+                </div>
+              </div>
+
+              <!-- Mensaje -->
+              <div>
+                <label class="block text-sm text-white mb-1">Mensaje</label>
+                <textarea rows="5" placeholder="Escribe tu mensaje..."
+                  class="w-full px-4 py-2 rounded bg-purple-900 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600 resize-none"></textarea>
+              </div>
+
+              <!-- Botón -->
+              <div class="text-left pt-2">
+                <button type="submit" class="bg-purple-700 hover:bg-purple-800 px-6 py-2 rounded text-white transition">
+                  Enviar Mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+  <footer class="bg-purple-950 text-gray-300 py-10 mt-20 text-center">
+    <div class="container mx-auto px-6 space-y-6">
+
+      <h1 class="text-3xl font-bold text-white">
+        Elliot Reyes
+      </h1>
+      <h4 class="text-xl font-bold text-purple-400">
+        "AtraxxDev"
+      </h4>
+      
+      <!-- Navegación Footer -->
+      <nav>
+        <ul class="flex justify-center gap-8 text-purple-400">
+          <li><a href="#home" class="hover:text-purple-300 transition">Inicio</a></li>
+          <li><a href="#about" class="hover:text-purple-300 transition">Acerca de</a></li>
+          <li><a href="#projects" class="hover:text-purple-300 transition">Proyectos</a></li>
+          <li><a href="#contact" class="hover:text-purple-300 transition">Contacto</a></li>
+        </ul>
+      </nav>
+      
+      <p class="text-sm text-gray-300">&copy; 2025 Reserved by Elliot Reyes</p>
+    </div>
+  </footer>
+
+
+
+
+    <!-- Script para escritura automatica -->
+    <script>
+      const texts = [
+        "Game Programmer",
+        "Web Developer",
+        "Unity Developer",
+        "Software Developer",
+        "C# Developer",
+      ];
+
+      const element = document.getElementById("typing-text");
+      let textIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+
+      function typeLoop() {
+        const currentText = texts[textIndex];
+        const visibleText = currentText.substring(0, charIndex);
+        element.textContent = visibleText;
+
+        if (!isDeleting) {
+          if (charIndex < currentText.length) {
+            charIndex++;
+            setTimeout(typeLoop, 100);
+          } else {
+            // Espera después de escribir completo
+            setTimeout(() => {
+              isDeleting = true;
+              typeLoop();
+            }, 2000);
+          }
+        } else {
+          if (charIndex > 0) {
+            charIndex--;
+            setTimeout(typeLoop, 50);
+          } else {
+            isDeleting = false;
+            textIndex = (textIndex + 1) % texts.length;
+            setTimeout(typeLoop, 300);
+          }
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", typeLoop);
+    </script>
+
+  <!-- Skills Dinamicas -->
+    <script>
+      const techStack = [
+        { name: 'C#', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png' },
+        { name: '.NET', logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png' },
+        { name: 'HTML5', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+        { name: 'CSS3', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+        { name: 'JavaScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+        { name: 'Bootstrap', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png' },
+        { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+        { name: 'Tailwind', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png' },
+        { name: 'MySQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+        { name: 'Eleventy', logo: 'https://fred.dev/images/11ty.svg' }
+      ];
+
+      const tools = [
+        { name: 'Unity', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg' },
+        { name: 'VS Studio', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Visual_Studio_Icon_2022.svg/1200px-Visual_Studio_Icon_2022.svg.png' },
+        { name: 'VS Code', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' },
+        { name: 'Git', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
+        { name: 'GitHub', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg' },
+        { name: 'Figma', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' },
+        { name: 'Trello', logo: 'https://cdn.worldvectorlogo.com/logos/trello.svg' },
+        { name: 'Miro', logo: 'https://store-images.s-microsoft.com/image/apps.59334.da7f283b-9ae8-462d-968c-37937444d8e9.94b0a2b8-1808-4bf5-987d-ab0d9b98780e.05b65b02-4545-49e7-b530-981ac20aa7a2.png' },
+        { name: 'Notion', logo: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png' },
+      ];
+
+      const container = document.getElementById('skills-container');
+      const techBtn = document.getElementById('tech-btn');
+      const toolsBtn = document.getElementById('tools-btn');
+
+      function setActiveButton(activeBtn, inactiveBtn) {
+        activeBtn.className = `
+        cursor-pointer px-6 py-2 rounded-lg font-semibold 
+        bg-purple-600 text-white transition
+      `;
+
+        inactiveBtn.className = `
+        cursor-pointer px-6 py-2 rounded-lg font-semibold 
+        bg-transparent text-purple-400 border border-purple-600 transition
+      `;
+      }
+
+      function renderCards(data) {
+        container.innerHTML = '';
+
+        data.forEach((item, index) => {
+          const card = document.createElement('div');
+          card.className = `
+          flex items-center bg-purple-900/30 border border-purple-600 rounded-lg p-4 gap-4 shadow-md 
+          hover:scale-105 transition duration-300 
+          opacity-0 translate-y-4
+        `;
+
+          card.innerHTML = `
+          <img src="${item.logo}" alt="${item.name}" class="w-10 h-10 object-contain" />
+          <span class="text-lg font-medium">${item.name}</span>
+        `;
+
+          container.appendChild(card);
+
+          setTimeout(() => {
+            card.classList.remove('opacity-0', 'translate-y-4');
+            card.classList.add('opacity-100', 'translate-y-0', 'transition-all');
+          }, 100 * index);
+        });
+      }
+
+      techBtn.addEventListener('click', () => {
+        setActiveButton(techBtn, toolsBtn);
+        renderCards(techStack);
+      });
+
+      toolsBtn.addEventListener('click', () => {
+        setActiveButton(toolsBtn, techBtn);
+        renderCards(tools);
+      });
+
+      // Inicial
+      setActiveButton(techBtn, toolsBtn);
+      renderCards(techStack);
+    </script>
+
+<!-- Script Filter -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const projectCards = document.querySelectorAll(".project-card");
+
+      filterButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          // Remueve la clase 'active' de todos los botones
+          filterButtons.forEach((b) => b.classList.remove("bg-purple-700", "active"));
+          // Agrega la clase 'active' al botón seleccionado
+          btn.classList.add("bg-purple-700", "active");
+
+          const filterValue = btn.getAttribute("data-filter");
+
+          projectCards.forEach((card) => {
+            // Quita animación previa si existe
+            card.classList.remove("opacity-0", "scale-95", "transition", "duration-300");
+
+            if (filterValue === "all" || card.getAttribute("data-category") === filterValue) {
+              card.style.display = "block";
+              // Reforzamos animación
+              requestAnimationFrame(() => {
+                card.classList.add("transition", "duration-300", "opacity-0", "scale-95");
+                setTimeout(() => {
+                  card.classList.remove("opacity-0", "scale-95");
+                }, 10);
+              });
+            } else {
+              // Oculta con animación
+              card.classList.add("transition", "duration-300", "opacity-0", "scale-95");
+              setTimeout(() => {
+                card.style.display = "none";
+                card.classList.remove("opacity-0", "scale-95");
+              }, 300);
+            }
+          });
+        });
+      });
+
+      // Activa el filtro 'All' por defecto
+      const defaultBtn = document.querySelector('[data-filter="all"]');
+      if (defaultBtn) {
+        defaultBtn.click();
+      }
+    });
+  </script>
+
+
+
+
+  </body>
+
+  </html>
