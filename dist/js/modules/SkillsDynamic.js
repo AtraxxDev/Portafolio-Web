@@ -49,13 +49,14 @@ export default function SkillsDynamic(){
             card.className = `
           flex items-center bg-purple-900/30 border border-purple-600 rounded-lg p-4 gap-4 shadow-md 
           hover:scale-105 transition duration-300 
-          opacity-0 translate-y-4
+          opacity-0 translate-y-4   max-w-full
+
         `;
 
-            card.innerHTML = `
-          <img src="${item.logo}" alt="${item.name}" class="w-10 h-10 object-contain" />
-          <span class="text-lg font-medium">${item.name}</span>
-        `;
+card.innerHTML = `
+<img src="${item.logo}" alt="${item.name}" class="w-7 h-7 object-contain flex-shrink-0 md:w-10 md:h-10" />
+  <span class="text-sm font-medium break-words md:text-lg ">${item.name}</span>
+`;
 
             container.appendChild(card);
 
