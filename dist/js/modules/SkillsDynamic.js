@@ -31,12 +31,12 @@ export default function SkillsDynamic(){
 
     function setActiveButton(activeBtn, inactiveBtn) {
         activeBtn.className = `
-        cursor-pointer px-6 py-2 rounded-lg font-semibold 
+        cursor-pointer px-6 py-2 rounded-lg ft-formulaLight text-lg 
         bg-purple-600 text-white transition
       `;
 
         inactiveBtn.className = `
-        cursor-pointer px-6 py-2 rounded-lg font-semibold 
+        cursor-pointer px-6 py-2 rounded-lg ft-formulaLight text-lg 
         bg-transparent text-purple-400 border border-purple-600 transition
       `;
     }
@@ -49,13 +49,13 @@ export default function SkillsDynamic(){
             card.className = `
           flex items-center bg-purple-900/30 border border-purple-600 rounded-lg p-4 gap-4 shadow-md 
           hover:scale-105 transition duration-300 
-          opacity-0 translate-y-4   max-w-full
+          opacity-0 translate-y-4 max-w-full
 
         `;
 
 card.innerHTML = `
 <img src="${item.logo}" alt="${item.name}" class="w-7 h-7 object-contain flex-shrink-0 md:w-10 md:h-10" />
-  <span class="text-sm font-medium break-words md:text-lg ">${item.name}</span>
+  <span class="ft-formulaLight text-lg break-words md:text-xl ">${item.name}</span>
 `;
 
             container.appendChild(card);

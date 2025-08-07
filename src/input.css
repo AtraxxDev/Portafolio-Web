@@ -1,9 +1,28 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'FormulaBold';
+  src: url('/dist/fonts/FormulaCondensed-Bold.otf') format('opentype');
+
+}
+
+@font-face {
+  font-family: 'FormulaLight';
+  src: url('/dist/fonts/FormulaCondensed-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ArchivoRegular';
+  src: url('/fonts/Archivo-Regular.ttf') format('truetype');
+}
+
+
 
 body {
-   
+    font-family: Archivo;
 }
+
+
 
 html {
   scroll-behavior: smooth;
@@ -12,6 +31,18 @@ html {
 .gradient-bg{
     background: #020202;
     background: linear-gradient(90deg, rgba(88, 0, 150, 1) 0%, rgba(44, 2, 77, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.ft-archivo{
+    font-family: ArchivoRegular;
+}
+
+
+.ft-formula{
+    font-family: FormulaBold;
+}
+.ft-formulaLight{
+    font-family: FormulaLight;
 }
 
 
