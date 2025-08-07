@@ -185,11 +185,13 @@
 
   <!-- Proyects -->
   <section id="projects" class="py-16 text-white">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 md:px-10">
       <h3
-        class="text-xl font-semibold text-purple-300 uppercase tracking-wider bg-purple-600/30 px-4 py-2 my-8 rounded-3xl inline-block w-fit">
+        class="block text-md font-semibold text-purple-300 uppercase tracking-wider bg-purple-600/30 px-4 py-2 my-8 rounded-3xl w-max mx-auto md:mx-0 md:text-left md:text-xl">
         Mis Proyectos Recientes
       </h3>
+
+
 
       <!-- Filtros -->
       <div class="flex justify-center flex-wrap gap-3 mb-10">
@@ -208,82 +210,90 @@
       <div id="project-cards" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         <!-- Card 1 -->
         <div class="project-card" data-category="web">
-          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden flex flex-col h-full">
             <img src="./img/Project-Web-1.png" alt="Project 1" class="w-full h-48 object-cover" />
-            <div class="p-5">
+            <div class="p-5 flex flex-col flex-grow">
               <h3 class="text-xl font-semibold mb-1">Portafolio Web</h3>
               <p class="text-sm text-gray-400 mb-2">Frontend</p>
-              <p class="mb-3 text-gray-300">Un portafolio personal que muestra mi trabajo, experiencia y habilidades que
-                tengo, construido con principios de diseño responsivo.</p>
-              <div class="flex flex-wrap gap-2 mb-4">
+              <p class="mb-3 text-gray-300 flex-grow text-justify">
+                Un portafolio personal que muestra mi trabajo, experiencia y habilidades que tengo, construido con
+                principios de diseño responsivo.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4 justify-center">
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">HTML</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Tailwind</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">JavaScript</span>
               </div>
               <a href="#" target="_blank"
-                class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar
-                Proyecto</a>
+                class="inline-block bg-purple-700 hover:bg-purple-800 text-white text-center py-2 rounded transition mt-auto">
+                Visitar Proyecto
+              </a>
             </div>
           </div>
         </div>
 
         <!-- Card 2 -->
         <div class="project-card" data-category="web">
-          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden flex flex-col h-full">
             <img src="./img/Project-Web-2.png" alt="Project 2" class="w-full h-48 object-cover" />
-            <div class="p-5">
+            <div class="p-5 flex flex-col flex-grow">
               <h3 class="text-xl font-semibold mb-1">E-commerce</h3>
               <p class="text-sm text-gray-400 mb-2">Frontend & Backend</p>
-              <p class="mb-3 text-gray-300">E-commerce responsivo creado como practica escolar donde el enfoque mas que
-                nada fue en la pasarela de pagos y el sistema de carrito</p>
-              <div class="flex flex-wrap gap-2 mb-4">
+              <p class="mb-3 text-gray-300 flex-grow text-justify">
+                E-commerce responsivo creado como practica escolar donde el enfoque mas que nada fue en la pasarela de
+                pagos y el sistema de carrito
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4 justify-center">
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">HTML</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">CSS</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">JavaScript</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Bootstrap 5</span>
               </div>
               <a href="https://atraxxdev.github.io/E-Commerce/" target="_blank"
-                class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar
-                Proyecto</a>
+                class="inline-block bg-purple-700 hover:bg-purple-800 text-white text-center py-2 rounded transition mt-auto">
+                Visitar Proyecto
+              </a>
             </div>
           </div>
         </div>
 
         <!-- Card 3 -->
         <div class="project-card" data-category="game">
-          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden flex flex-col h-full">
             <img src="./img/Project-GameDev-1.png" alt="Project 3" class="w-full h-48 object-cover" />
-            <div class="p-5">
+            <div class="p-5 flex flex-col flex-grow">
               <h3 class="text-xl font-semibold mb-1">Recipe Rumble</h3>
               <p class="text-sm text-gray-400 mb-2">Unity | Game Dev</p>
-              <p class="mb-3 text-gray-300"> Videojuego de tipo party game para PC, con soporte multijugador local de
-                hasta 4 jugadores. Compatible con teclado y mandos, diseñado para sesiones rápidas y divertidas en
-                grupo.
+              <p class="mb-3 text-gray-300 flex-grow text-justify">
+                Videojuego de tipo party game para PC, con soporte multijugador local de hasta 4 jugadores. Compatible
+                con teclado y mandos, diseñado para sesiones rápidas y divertidas en grupo.
               </p>
-              <div class="flex flex-wrap gap-2 mb-4">
+              <div class="flex flex-wrap gap-2 mb-4 justify-center">
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Unity</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">C#</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">New Input System</span>
               </div>
               <a href="https://atraxxdev.itch.io/recipe-rumble" target="_blank"
-                class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar
-                Proyecto</a>
+                class="inline-block bg-purple-700 hover:bg-purple-800 text-white text-center py-2 rounded transition mt-auto">
+                Visitar Proyecto
+              </a>
             </div>
           </div>
         </div>
 
         <!-- Card 4 -->
         <div class="project-card" data-category="web">
-          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden">
+          <div class="bg-purple-900 rounded-lg shadow-lg overflow-hidden flex flex-col h-full">
             <img src="./img/Project-Web-3.png" alt="Project 4" class="w-full h-48 object-cover" />
-            <div class="p-5">
+            <div class="p-5 flex flex-col flex-grow">
               <h3 class="text-xl font-semibold mb-1">Pagina Institucional</h3>
               <p class="text-sm text-gray-400 mb-2">Frontend & Backend</p>
-              <p class="mb-3 text-gray-300"> Sitio web desarrollado para una institución educativa, donde se presentan
-                sus servicios, carreras y métodos de contacto. Incluye un formulario funcional conectado a Google Sheets
-                para recibir consultas en tiempo real.
+              <p class="mb-3 text-gray-300 flex-grow text-justify">
+                Sitio web desarrollado para una institución educativa, donde se presentan sus servicios, carreras y
+                métodos de contacto. Incluye un formulario funcional conectado a Google Sheets para recibir consultas en
+                tiempo real.
               </p>
-              <div class="flex flex-wrap gap-2 mb-4">
+              <div class="flex flex-wrap gap-2 mb-4 justify-center">
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">11ty</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">JavaScript</span>
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">HTML</span>
@@ -291,12 +301,14 @@
                 <span class="bg-purple-700/30 text-purple-300 text-xs px-3 py-1 rounded-full">Bootstrap 5</span>
               </div>
               <a href="https://tecsum.edu.mx/" target="_blank"
-                class="inline-block bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded transition">Visitar
-                Proyecto</a>
+                class="inline-block bg-purple-700 hover:bg-purple-800 text-white text-center py-2 rounded transition mt-auto">
+                Visitar Proyecto
+              </a>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
