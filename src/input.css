@@ -2,18 +2,18 @@
 
 @font-face {
   font-family: 'FormulaBold';
-  src: url('/dist/fonts/FormulaCondensed-Bold.otf') format('opentype');
+  src: url('./fonts/FormulaCondensed-Bold.otf') format('opentype');
 
 }
 
 @font-face {
   font-family: 'FormulaLight';
-  src: url('/dist/fonts/FormulaCondensed-Light.otf') format('opentype');
+  src: url('./fonts/FormulaCondensed-Light.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'ArchivoRegular';
-  src: url('/fonts/Archivo-Regular.ttf') format('truetype');
+  src: url('./fonts/Archivo-Regular.ttf') format('truetype');
 }
 
 
